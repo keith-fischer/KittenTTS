@@ -10,7 +10,7 @@ from threading import Semaphore, Lock
 BUFFER_SIZE = 5
 NUM_WORKER_THREADS = 3
 SPEED_OFFSET = 0.2
-CONVERSATION_SOURCE = conversation.conversation1
+#CONVERSATION_SOURCE = conversation.conversation
 CONVERSATION_SOURCE = "script_drama.txt"
 DEFAULT_VOICE = "Leo"
 dir = "KittenML/"
