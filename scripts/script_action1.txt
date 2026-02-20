@@ -1,0 +1,378 @@
+Bruno|1.2|They say the city sleeps at night.
+Bruno|1.2|They’re wrong. It just changes masks.
+Bruno|1.2|Neon bruises the rain, sirens sing in the distance, and trouble walks on polished shoes.
+Bruno|1.2|Tonight, trouble had a name: the Black Meridian.
+Bruno|1.2|Not a person. Not a gang. A deal.
+Bruno|1.2|A shipment moving through the docks at 2:17 a.m., carrying something nobody was supposed to own.
+Bruno|1.2|And somehow—through bad luck, good timing, and Kiki’s inability to ignore shiny mysteries—
+Bruno|1.2|we were in it.
+
+Bella|1.5|Everybody check your gear. And don’t give me that look, Jasper—yes, the flashlight matters.
+Jasper|1.3|I’m not giving you a look. I’m giving the flashlight respect.
+Kiki|1.8|I brought bolt cutters and vibes. The two essential travel items.
+Luna|1.4|I brought water and snacks. Because you all forget you’re mortal.
+Leo|1.6|I brought confidence. It’s weightless and extremely portable.
+Rosie|1.4|I brought a first-aid kit and common sense. I expect to lose both.
+Bruno|1.2|We moved like a badly organized heist movie—except the stakes were real.
+Bruno|1.2|The docks stretched ahead: cranes like giant skeletons, containers stacked like a maze made of metal.
+Bruno|1.2|Rain whispered on corrugated steel.
+Bruno|1.2|And somewhere inside that maze was the Meridian crate.
+
+Bella|1.5|Remember: quiet feet, quiet mouths, loud confidence.
+Kiki|1.9|My confidence is loud by nature.
+Rosie|1.3|Then muzzle it.
+Leo|1.6|Rosie, that was terrifying. I’m strangely attracted to your competence.
+Rosie|1.4|Focus.
+Jasper|1.3|I’m focusing so hard my brain is sweating.
+Luna|1.4|If your brain sweats, you should see a doctor.
+
+Bruno|1.2|We slipped between containers.
+Bruno|1.2|Somewhere, a forklift beeped like a warning from the universe.
+Bruno|1.2|Ahead, two guards lounged under a floodlight, talking and laughing like the night belonged to them.
+Bruno|1.2|It did—until Kiki decided it didn’t.
+
+Kiki|1.7|I can distract them.
+Bella|1.4|No. Absolutely not.
+Kiki|1.8|Yes. Absolutely yes.
+Rosie|1.4|Define “distract.”
+Kiki|1.7|I walk up like I own the place, ask for directions, and if that fails—
+Kiki|1.9|—I bonk them with my feelings.
+Jasper|1.4|That’s not a plan. That’s a poem with violence in it.
+Leo|1.6|Let her cook. Chaos is a spice.
+Luna|1.4|Chaos is also how people get arrested.
+
+Bruno|1.2|Bella took command with the kind of calm that makes you trust her even when you shouldn’t.
+Bruno|1.2|She pointed at Leo and Jasper.
+
+Bella|1.5|Leo, go flirt. Jasper, back him up. Kiki, do not improvise a felony.
+Kiki|1.6|I make no promises.
+Jasper|1.2|My entire body is a promise of anxiety.
+
+Leo|1.6|Evening, gentlemen.
+Leo|1.5|Quick question—where do you keep the office with the forms nobody wants to fill out?
+Guard1|1.6|What?
+Leo|1.6|Forms. Paperwork. The soul-crushing stuff. I’m lost and spiritually exhausted.
+Guard2|1.6|You’re not supposed to be here.
+Leo|1.7|That’s what my therapist says about my emotions too.
+Jasper|1.3|He’s with me.
+Jasper|1.4|We’re… contractors. Night contractors. For… steel. Very steel-related.
+Guard1|1.8|You’re lying.
+Leo|1.4|I’m never lying when I say you have great posture.
+Guard2|1.9|What is happening?
+
+Bruno|1.2|While the guards tried to parse Leo’s weaponized charm,
+Bruno|1.2|Bella motioned us around the floodlight’s edge.
+Bruno|1.2|Rosie and Luna moved like shadows.
+Bruno|1.2|Kiki moved like a storm pretending to be a shadow.
+
+Rosie|1.3|Stay low. Stay quiet.
+Luna|1.4|Stay alive. Big fan of staying alive.
+Kiki|1.7|Alive is the minimum. I’m aiming for legendary.
+Bella|1.5|Legendary later. Now: crate map.
+
+Bruno|1.2|I unfolded the smudged printout.
+Bruno|1.2|A grid of container IDs, one circled in red: M-13.
+Bruno|1.2|The Meridian.
+Bruno|1.2|Of course it was in the deepest part of the maze.
+
+Bruno|1.2|We slid past a row of containers marked with shipping codes and rust.
+Bruno|1.2|The air smelled like salt, diesel, and secrets.
+Bruno|1.2|Then—footsteps.
+Bruno|1.2|Fast. Multiple.
+
+Bella|1.2|Freeze.
+Kiki|1.3|I hate freezing.
+Rosie|1.2|Do it anyway.
+Luna|1.2|Please freeze. I’m not emotionally prepared for running yet.
+
+Bruno|1.2|We pressed into the shadows.
+Bruno|1.2|A patrol swept by, flashlights cutting through the rain like knives.
+Bruno|1.2|One beam paused—too close.
+
+Kiki|1.1|Don’t look over here. Don’t look over here.
+Kiki|1.0|I swear I’m just a wet container.
+
+Bruno|1.2|The beam moved on.
+Bruno|1.2|Kiki exhaled like she’d been holding her breath since childhood.
+
+Bella|1.5|Okay. Move. Now.
+
+Bruno|1.2|We found M-13 wedged between towering stacks.
+Bruno|1.2|A single container, newer than the rest, painted matte black like it absorbed light.
+Bruno|1.2|On its door: a symbol—an arrow splitting a circle.
+Bruno|1.2|The Black Meridian.
+
+Rosie|1.4|That’s not subtle.
+Luna|1.4|Villains never do subtle.
+Kiki|1.8|I want it on a jacket.
+
+Bella|1.5|Bruno, open it.
+Bruno|1.2|I would love to, except it’s locked with a keypad and a tamper seal.
+Jasper|1.3|I can pick it.
+Bella|1.4|Since when can you pick locks?
+Jasper|1.4|Since I learned fear is a teacher.
+Kiki|1.8|That’s hot.
+Jasper|1.2|Please don’t make it weird.
+Kiki|1.7|I make everything weird. It’s my gift.
+
+Bruno|1.2|Jasper knelt by the lock, hands steady despite the panic in his eyes.
+Bruno|1.2|He pulled a thin tool kit from his pocket like he’d been waiting his whole life for this moment.
+Bruno|1.2|Which, to be fair, he probably had.
+
+Jasper|1.0|Okay. Quiet. Give me quiet.
+Bella|1.3|You have quiet.
+Jasper|1.1|I need… more quiet.
+Luna|1.2|We are literally whispering in a rainstorm at midnight.
+Jasper|1.0|Yes. More quiet.
+
+Bruno|1.2|Click.
+Bruno|1.2|Click.
+Bruno|1.2|The keypad blinked.
+Bruno|1.2|Then flashed green.
+
+Jasper|1.6|Yes!
+Jasper|1.2|Sorry. Yes.
+
+Bella|1.5|Good. Open it.
+Rosie|1.3|Slowly. There might be an alarm.
+Kiki|1.7|Or a snake. Villains love snakes.
+
+Bruno|1.2|The doors groaned open.
+Bruno|1.2|Inside: a smaller crate, foam-sealed, marked with hazard stripes and a single word:
+Bruno|1.2|AURORA.
+
+Luna|1.3|That sounds like a spaceship or a perfume.
+Rosie|1.3|Or a weapon.
+Leo|1.6|Or both. Imagine the marketing.
+Bella|1.4|We’re not here for marketing. We’re here to stop whatever this is.
+
+Bruno|1.2|Behind us—metal clanged.
+Bruno|1.2|A boot scraped concrete.
+Bruno|1.2|And a voice rolled through the dark like gravel.
+
+Unknown|1.7|Step away from the container.
+
+Kiki|1.8|I hate when strangers give commands.
+Rosie|1.4|Everyone stay calm.
+Bella|1.5|Hands where they can see them. No sudden moves.
+
+Bruno|1.2|Floodlights snapped on.
+Bruno|1.2|We were caught in white glare.
+Bruno|1.2|Three figures approached, faces hidden under hoods.
+Bruno|1.2|And in the middle—someone taller, coat long, posture confident.
+Bruno|1.2|Their hand rested on something that was definitely not friendly.
+
+Leader|1.6|You’re nosy.
+Leader|1.6|Nosy people don’t live long.
+
+Leo|1.7|Counterpoint: nosy people invent science.
+Rosie|1.4|Leo!
+Leo|1.5|What? I’m negotiating with facts.
+
+Bella|1.5|We don’t want trouble. We’re leaving.
+Leader|1.6|Not empty-handed, you’re not.
+Jasper|1.3|We didn’t take anything.
+Leader|1.6|Yet.
+
+Bruno|1.2|Kiki’s fingers twitched near her bolt cutters.
+Bruno|1.2|Rosie’s stance shifted—ready, balanced.
+Bruno|1.2|Luna swallowed hard but didn’t step back.
+Bruno|1.2|Bella looked the leader dead in the face like she’d seen worse.
+Bruno|1.2|And me?
+Bruno|1.2|I did what any sensible narrator would do:
+Bruno|1.2|I panicked internally and spoke calmly externally.
+
+Bruno|1.2|Let’s not do anything irreversible.
+Leader|1.6|Irreversible is kind of our brand.
+
+Kiki|2.0|Okay! I’m done being polite!
+Bella|1.8|Kiki—NO!
+Kiki|2.0|Too late!
+
+Bruno|1.2|Kiki kicked a loose pallet.
+Bruno|1.2|It slid across wet concrete like a hockey puck—
+Bruno|1.2|and slammed into one of the hooded figures’ knees.
+Bruno|1.2|They went down with a yelp.
+
+Rosie|1.8|Move!
+Luna|1.7|Run!
+Jasper|1.6|Why is it always running?!
+Leo|1.8|Because walking is for people who aren’t being shot at!
+
+Bruno|1.2|We bolted.
+Bruno|1.2|Footsteps thundered behind us.
+Bruno|1.2|A flashlight beam whipped past my shoulder.
+Bruno|1.2|Something cracked against a container wall—bullet? stone? my sanity? Hard to say.
+
+Bella|1.6|This way! Left!
+Kiki|1.9|I’m going left with enthusiasm!
+Rosie|1.7|Stay together!
+Luna|1.6|I am together! I’m just together while terrified!
+
+Bruno|1.2|We ducked into a narrow corridor of containers.
+Bruno|1.2|It dead-ended.
+Bruno|1.2|Of course it did.
+
+Jasper|1.9|Dead end!
+Kiki|1.9|I noticed!
+Leo|1.8|Okay, new plan: up!
+Luna|1.7|Up?!
+Rosie|1.6|Climb! Now!
+
+Bruno|1.2|Rosie grabbed a ladder welded to a container’s side.
+Bruno|1.2|Bella went first, hauling herself up like gravity owed her money.
+Bruno|1.2|Leo followed, then Luna, then me.
+Bruno|1.2|Kiki went last—of course she did—throwing a grin over her shoulder at the oncoming footsteps.
+
+Kiki|2.0|Catch me if you can, weird coat guy!
+
+Bruno|1.2|We hit the top of the container stack.
+Bruno|1.2|The wind slapped us.
+Bruno|1.2|Rain stung like needles.
+Bruno|1.2|Below, the leader stepped into view, looking up with slow, measured anger.
+
+Leader|1.4|You can’t outrun the Meridian.
+Bella|1.6|Watch us.
+
+Bruno|1.2|We sprinted across metal roofs.
+Bruno|1.2|The containers flexed under our weight, echoing like drums.
+Bruno|1.2|Far ahead: a crane platform with a service catwalk—an escape route if we could reach it.
+
+Rosie|1.6|Don’t look down!
+Luna|1.3|I wasn’t!
+Luna|1.7|Now I am!
+Jasper|1.6|I hate heights!
+Leo|1.7|Then love them faster!
+
+Bruno|1.2|A shot rang out.
+Bruno|1.2|Metal sparked near Leo’s foot.
+
+Leo|2.0|Okay! That was personal!
+Kiki|1.9|Now I’m mad!
+Bella|1.8|No hero moves! Keep running!
+
+Bruno|1.2|We leapt a gap between stacks—one container to another.
+Bruno|1.2|Luna nearly slipped, but Kiki caught her wrist.
+
+Kiki|1.2|I’ve got you.
+Luna|1.1|Thank you.
+Kiki|1.3|Don’t thank me yet. Jump.
+
+Luna|1.8|Jumping now!
+
+Bruno|1.2|We reached the crane platform.
+Bruno|1.2|A catwalk stretched out toward the warehouse roof.
+Bruno|1.2|Freedom—sort of.
+
+Rosie|1.5|Go, go!
+Jasper|1.6|I’m going! I’m going!
+Bella|1.6|Bruno, keep up!
+Bruno|1.4|Narrators are not built for cardio!
+
+Bruno|1.2|Behind us, the leader climbed with inhuman calm.
+Bruno|1.2|Like gravity had signed a contract.
+Bruno|1.2|They stepped onto the crane platform just as we hit the catwalk.
+
+Leader|1.6|Hand over AURORA.
+Leader|1.6|And I might let you limp away.
+
+Leo|1.7|We don’t even have it!
+Rosie|1.5|He’s right. It’s still in the container.
+Leader|1.4|Then why are you here?
+Bella|1.5|Because you’re hiding something that hurts people.
+Leader|1.6|People hurt people. We just monetize it.
+
+Kiki|2.0|I hate you!
+Kiki|2.0|Like, professionally!
+
+Bruno|1.2|Kiki yanked a maintenance lever on the crane control box.
+Bruno|1.2|A warning siren blared.
+Bruno|1.2|The crane arm shifted with a groan.
+Bruno|1.2|The catwalk trembled.
+
+Rosie|1.8|Kiki!
+Kiki|1.9|It’s fine! It’s—mostly fine!
+Jasper|1.7|Nothing is fine when it’s attached to a crane!
+
+Bruno|1.2|The leader stepped forward.
+Bruno|1.2|Bella stepped forward too.
+Bruno|1.2|For a second, time did that thing where it slows down and forces you to watch decisions happen.
+
+Bella|1.2|Back off.
+Leader|1.6|Or what?
+Bella|1.6|Or you learn why I’m in charge.
+
+Bruno|1.2|Bella grabbed a hanging chain and swung it like a pendulum.
+Bruno|1.2|It slammed into the leader’s shoulder.
+Bruno|1.2|They staggered—more surprised than hurt.
+
+Leader|1.8|Enough!
+
+Bruno|1.2|Rosie launched forward, fast and precise, sweeping a leg and knocking one of the hooded figures off balance.
+Bruno|1.2|Leo shoved another back with a dramatic shout that sounded like an action hero audition.
+Bruno|1.2|Jasper—bless him—threw a wrench and hit exactly nothing.
+Bruno|1.2|Kiki cheered anyway.
+
+Jasper|2.0|I tried!
+Kiki|1.8|It was adorable!
+Luna|1.7|Less adorable, more surviving!
+
+Bruno|1.2|The crane lurched again.
+Bruno|1.2|The catwalk tilted.
+Bruno|1.2|Everyone slid toward the edge like marbles on a table.
+
+Rosie|2.0|Grab something!
+Leo|1.9|I’m grabbing!
+Luna|1.8|I hate physics!
+Jasper|1.9|My hands are wet!
+Bella|1.8|Hold on!
+
+Bruno|1.2|I grabbed the railing and felt my shoulders complain in three different languages.
+Bruno|1.2|Below, the drop looked like the world’s meanest suggestion.
+
+Bruno|1.2|The leader—still upright—stared at us through the rain.
+Bruno|1.2|And then… laughed.
+
+Leader|1.2|You don’t even know what AURORA is.
+Leader|1.3|You just know it scares you.
+
+Bella|1.4|We know enough.
+Leader|1.4|No. You don’t.
+
+Bruno|1.2|A distant horn blared—ships, or security, or both.
+Bruno|1.2|The leader’s head turned slightly, calculating.
+Bruno|1.2|Then they stepped back.
+
+Leader|1.5|This isn’t over.
+Leader|1.4|It’s just… postponed.
+
+Bruno|1.2|They signaled.
+Bruno|1.2|The hooded figures retreated into the maze, vanishing like smoke.
+Bruno|1.2|And just like that, the fight drained out of the air, leaving only rain and our heavy breathing.
+
+Luna|1.2|Are they gone?
+Kiki|1.7|They’re gone. Cowards. Fashionable cowards, but still.
+Rosie|1.3|Everyone check injuries.
+Leo|1.5|I’m fine. My ego is bruised, but that’s normal.
+Jasper|1.2|I’m alive. I think.
+Bella|1.4|Bruno, narrate less and move more. We need off this crane.
+
+Bruno|1.2|We crawled along the tilted catwalk, inch by inch.
+Bruno|1.2|Somewhere, an alarm kept screaming.
+Bruno|1.2|Somewhere else, people were coming to investigate.
+Bruno|1.2|And in a black container labeled M-13, a crate called AURORA waited like a sleeping dragon.
+
+Rosie|1.4|We can’t leave it there.
+Bella|1.5|We’re not leaving it.
+Jasper|1.3|Then we need a plan that doesn’t involve dying.
+Kiki|1.8|Okay. New plan: we steal a forklift.
+Luna|1.6|Kiki!
+Leo|1.7|I love her brain.
+Bruno|1.2|I hate that it might work.
+
+Bruno|1.2|We dropped down behind the warehouse roofline and ran again—
+Bruno|1.2|toward the lights, the engines, the chaos.
+Bruno|1.2|Toward the next bad decision.
+Bruno|1.2|Because that’s what heroes do.
+Bruno|1.2|Or idiots.
+Bruno|1.2|Sometimes the difference is just who tells the story.

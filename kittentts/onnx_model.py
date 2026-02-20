@@ -1,4 +1,3 @@
-from misaki import en, espeak
 import numpy as np
 import phonemizer
 import soundfile as sf
@@ -180,4 +179,3 @@ class KittenTTS_1_Onnx:
         audio = self.generate(text, voice, speed, clean_text=clean_text)
         sf.write(output_path, audio, sample_rate)
         print(f"Audio saved to {output_path}")
-
