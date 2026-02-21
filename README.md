@@ -42,7 +42,19 @@ pip install sounddevice
 python app.py
 ```
 
-By default, `app.py` plays `scripts/script_drama.txt`. Change `CONVERSATION_SOURCE` in `app.py` to use another script.
+By default, `app.py` plays `scripts/script_drama.txt`. Use `--script` to choose another: `python app.py --script script_travel.txt`
+
+### API Mode (server + client)
+
+```bash
+# Terminal 1: Start server
+python server.py
+
+# Terminal 2: Send speech lines
+python client.py
+```
+
+Or use `python client.py --start-server` to start the server automatically. See [server.md](server.md) and [client.md](client.md).
 
 ---
 
@@ -56,11 +68,7 @@ By default, `app.py` plays `scripts/script_drama.txt`. Change `CONVERSATION_SOUR
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-**2. Install espeak-ng** (required for phonemizer text-to-phoneme conversion):
-
-```bash
-brew install espeak-ng
-```
+**2. espeak-ng** — Provided by `espeakng_loader` (in requirements.txt); no system install needed. If phonemizer fails, install manually: `brew install espeak-ng`
 
 **3. Python 3.10+** (3.12 recommended):
 
@@ -102,6 +110,8 @@ pip install espeak-phonemizer-windows
 | **kittentts** | KittenTTS TTS engine (text → phonemes → ONNX → audio) |
 | **sounddevice** | Audio playback (uses PortAudio) |
 | **phonemizer** | Text → IPA phonemes (uses espeak-ng) |
+| **flask** | API server (server.py) |
+| **requests** | HTTP client (client.py) |
 | **espeakng_loader** | Cross-platform espeak-ng library loader |
 | **onnxruntime** | ONNX model inference (CPU or GPU) |
 | **numpy** | Array handling for audio |
@@ -184,7 +194,7 @@ Bella|1.4|Okay. Everyone stay together. No wandering.
 Jasper|1.3|I'm not wandering. I'm strategically glued to the group.
 ```
 
-Save as `scripts/your_script.txt` and set `CONVERSATION_SOURCE = "your_script.txt"` in `app.py`.
+Save as `scripts/your_script.txt` and run `python app.py --script your_script.txt`.
 
 ### Available Voices
 
@@ -223,19 +233,33 @@ Bella|1.4|Are you sure we should go in?
 Jasper|1.3|What's the worst that could happen?
 ```
 
-Copy the output into `scripts/your_story.txt` and run `python app.py` with `CONVERSATION_SOURCE` set to your file.
+Copy the output into `scripts/your_story.txt` and run `python app.py --script your_story.txt`.
 
 ---
 
-## Configuration (app.py)
+## Configuration
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `CONVERSATION_SOURCE` | `"script_drama.txt"` | Script filename in `scripts/` |
-| `BUFFER_SIZE` | `5` | Max tasks in flight (backpressure) |
-| `NUM_WORKER_THREADS` | `3` | Parallel TTS workers |
-| `SPEED_OFFSET` | `0.2` | Added to each line's speed |
-| `DEFAULT_VOICE` | `"Leo"` | Fallback for unknown voices |
+### app.py (script player)
+
+| Option | Default | Description |
+|--------|---------|-------------|
+| `--script`, `-s` | `script_drama.txt` | Script filename in `scripts/` |
+| `--voice`, `-v` | `Leo` | Fallback for unknown voices |
+| `--model-dir` | `KittenML/` | Model directory |
+| `--model` | `kitten-tts-nano-0.8-fp32` | Model name |
+| `--speed-offset` | `0.2` | Added to each line's speed |
+
+See [app.md](app.md) for details.
+
+### server.py (API)
+
+| Option | Default | Description |
+|--------|---------|-------------|
+| `--host` | `127.0.0.1` | Bind host |
+| `--port` | `5001` | Bind port |
+| `--model` | `kitten-tts-nano-0.8-fp32` | Model name |
+
+See [server.md](server.md) and [client.md](client.md) for API usage.
 
 ---
 
@@ -255,11 +279,13 @@ Copy the output into `scripts/your_story.txt` and run `python app.py` with `CONV
 
 ```
 KittenTTS/
-├── app.py              # Main script player
-├── app_readme.md       # Detailed app.py documentation
-├── kittentts/          # KittenTTS library
-├── KittenML/           # Local model configs (optional)
-└── scripts/            # Speech scripts
+├── app.py              # Script player (loads script, uses Speech)
+├── server.py            # API server (POST /speak)
+├── client.py            # API client (sends speech lines)
+├── speech.py            # Core Speech class (queuing, workers, player)
+├── kittentts/           # KittenTTS library
+├── KittenML/            # Local model configs (optional)
+└── scripts/             # Speech scripts
     ├── script_drama.txt
     ├── script_action1.txt
     ├── script_hangout.txt
@@ -272,7 +298,7 @@ KittenTTS/
 
 | Issue | Solution |
 |-------|----------|
-| `phonemizer` can't find espeak | Install `espeak-ng` via Homebrew (Mac) or use `espeak-phonemizer-windows` (Windows) |
+| `phonemizer` can't find espeak | `espeakng_loader` (in requirements.txt) provides it; ensure it's installed. Fallback: `brew install espeak-ng` (Mac) or `espeak-phonemizer-windows` (Windows) |
 | No audio playback | Ensure `sounddevice` is installed; check system audio device |
 | Model download fails | Check internet; Hugging Face may require login for some models |
 | Slow generation | Use `onnxruntime-gpu` (NVIDIA) or `onnxruntime-directml` (Windows) |
@@ -283,9 +309,12 @@ KittenTTS/
 
 | Document | Description |
 |----------|-------------|
-| [app_readme.md](app_readme.md) | Architecture, call graphs, and implementation details for `app.py` |
+| [app.md](app.md) | Script player — loads script file, uses Speech class |
+| [speech.md](speech.md) | Core Speech class — queuing, workers, player |
+| [server.md](server.md) | API server — POST /speak for speech lines |
+| [client.md](client.md) | API client — POST options and usage |
 | [README_orginal.md](README_orginal.md) | Original KittenTTS project README |
-| [KittenML/kitten-tts-nano-0.8-fp32/README.md](KittenML/kitten-tts-nano-0.8-fp32/README.md) | Nano model (15M params) — default for `app.py` |
+| [KittenML/kitten-tts-nano-0.8-fp32/README.md](KittenML/kitten-tts-nano-0.8-fp32/README.md) | Nano model (15M params) — default |
 | [KittenML/kitten-tts-mini-0.8/README.md](KittenML/kitten-tts-mini-0.8/README.md) | Mini model (80M params) — higher quality |
 
 ---

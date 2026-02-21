@@ -129,7 +129,7 @@ def main() -> None:
         "Jasper|1.3|Jasper, Hello, this is a test from the Kitten TTS client.",
         "Luna|1.2|Luna, Hello, this is a test from the Kitten TTS client.",
         "Kiki|1.0|Kiki, Hello, this is a test from the Kitten TTS client.",
-        "Bruno|1.3|Kiki, Hello, this is a test from the Kitten TTS client.",
+        "Bruno|1.3|Bruno, Hello, this is a test from the Kitten TTS client.",
         "Rosie|1.2|Rosie, Hello, this is a test from the Kitten TTS client.",
     ]
 
