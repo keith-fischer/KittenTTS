@@ -1,3 +1,13 @@
+import os
+
+# Use espeakng_loader (from requirements.txt) to provide espeak-ng without system install
+try:
+    import espeakng_loader
+    os.environ.setdefault("PHONEMIZER_ESPEAK_LIBRARY", espeakng_loader.get_library_path())
+    os.environ.setdefault("ESPEAK_DATA_PATH", espeakng_loader.get_data_path())
+except ImportError:
+    pass  # Fall back to system espeak-ng if espeakng_loader not installed
+
 import numpy as np
 import phonemizer
 import soundfile as sf

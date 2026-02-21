@@ -1,5 +1,8 @@
 num2words
 spacy
+sounddevice
+flask
+requests
 espeakng_loader
 misaki[en]
 onnxruntime
