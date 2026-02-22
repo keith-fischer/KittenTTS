@@ -59,6 +59,10 @@ def wait_for_server(base_url: str, timeout: float = 30.0) -> bool:
         time.sleep(1)
     return False
 
+# ANSI escape codes for colors
+class Colors:
+    GREEN = '\033[92m'
+    RESET = '\033[0m'
 
 def speak(base_url: str, line: str, use_json: bool = True) -> tuple[bool, str]:
     """Send a speech line to the server. Returns (success, message)."""
@@ -66,10 +70,11 @@ def speak(base_url: str, line: str, use_json: bool = True) -> tuple[bool, str]:
         return False, "Install requests: pip install requests"
 
     url = f"{base_url}/speak"
+    print(f"{Colors.GREEN}{line}{Colors.RESET}")
     if use_json:
-        resp = requests.post(url, json={"line": line}, timeout=60)
+        resp = requests.post(url, json={"line": line}, timeout=300)
     else:
-        resp = requests.post(url, data=line, headers={"Content-Type": "text/plain"}, timeout=60)
+        resp = requests.post(url, data=line, headers={"Content-Type": "text/plain"}, timeout=300)
 
     try:
         data = resp.json()
@@ -124,13 +129,13 @@ def main() -> None:
     # VOICES_SHE = ["Bella", "Luna", "Rosie", "Kiki"]
     # VOICES_HE = ["Jasper", "Bruno", "Leo"]
     lines = args.lines or [
-        "Leo|1.2|Leo, Hello, this is a test from the Kitten TTS client.",
-        "Bella|1.4|Bella, Hello, this is a test from the Kitten TTS client.",
-        "Jasper|1.3|Jasper, Hello, this is a test from the Kitten TTS client.",
-        "Luna|1.2|Luna, Hello, this is a test from the Kitten TTS client.",
+        "Leo|1.0|Leo, Hello, this is a test from the Kitten TTS client.",
+        "Bella|1.0|Bella, Hello, this is a test from the Kitten TTS client.",
+        "Jasper|1.0|Jasper, Hello, this is a test from the Kitten TTS client.",
+        "Luna|1.0|Luna, Hello, this is a test from the Kitten TTS client.",
         "Kiki|1.0|Kiki, Hello, this is a test from the Kitten TTS client.",
-        "Bruno|1.3|Bruno, Hello, this is a test from the Kitten TTS client.",
-        "Rosie|1.2|Rosie, Hello, this is a test from the Kitten TTS client.",
+        "Bruno|1.0|Bruno, Hello, this is a test from the Kitten TTS client.",
+        "Rosie|1.0|Rosie, Hello, this is a test from the Kitten TTS client.",
     ]
 
     print(f"\nSending {len(lines)} speech line(s) to {base_url}/speak\n")

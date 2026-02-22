@@ -10,3 +10,5 @@ soundfile
 numpy
 huggingface_hub
 phonemizer
+glob2
+cryptography

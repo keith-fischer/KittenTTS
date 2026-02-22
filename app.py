@@ -10,7 +10,7 @@ from speech import Speech
 
 
 # Default configuration
-DEFAULT_SCRIPT = "script_drama.txt"
+DEFAULT_SCRIPT = "script_260222_125818.txt"
 DEFAULT_VOICE = "Leo"
 DEFAULT_MODEL_DIR = "KittenML/"
 DEFAULT_MODEL = "kitten-tts-nano-0.8-fp32"
