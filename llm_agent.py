@@ -55,20 +55,20 @@ LM_STUDIO_API_KEY = None  # When None, no Authorization header is sent
 # Speech server default (matches server.py)
 SPEECH_HOST = "127.0.0.1"
 SPEECH_PORT = 5001
-
-VALID_VOICES = ["Leo", "Bella", "Jasper", "Kiki", "Luna", "Rosie", "Bruno", "Hugo"]
+story_type="podcast group discussion"
+VALID_VOICES = ["Leo", "Bella", "Jasper", "Kiki", "Luna", "Rosie", "Bruno"]
 DEFAULT_VOICE = "Bruno"
 PLOT_COUNT="10"
 word_count = "20"
-SYSTEM_PROMPT = """You write drama scripts for text-to-speech. Each line must have:
-- voice: one of Leo, Bella, Jasper, Kiki, Luna, Rosie, Bruno, Hugo
-- speed: float 1.0 to 1.7 (1.2 = normal, higher = faster)
-- text: the spoken dialogue or narration
-
+SYSTEM_PROMPT = f"""You write {story_type} scripts for text-to-speech. Each line must have:
+- voice: one of Leo is male, Luna is female, Bruno is male, Kiki is female, Jasper is male, Rosie is female and Bella is female.
+- speed: float 1.0 to 1.5 (1.0 = lower, 1.2 = normal, higher = faster)
+- text: the spoken as dialogue or narration
+"""+"""
 Respond with valid JSON only, in this exact format:
-{"lines": [{"voice": "Leo", "speed": 1.2, "text": "Hello."}, ...]}
+{"lines": [{"voice": "Leo", "speed": 1.1, "text": "Hello."}, ...]}
 
-Keep lines concise. Use varied voices for dialogue."""
+Keep lines verbose and detailed. Use varied voices for dialogue."""
 
 SPEECH_SCRIPT_SCHEMA = {
     "type": "json_schema",
@@ -274,7 +274,7 @@ def main() -> None:
     # They attack each other and eat the flesh of their friends.
     # One person manages to run and hide in the deep woods and eventually make a living deep in the forest with bigfoot.
     # """
-    story_type="podcast group discussion"
+
     words_theme=f"Make words of this theme of software, AI, engineering, employment, human, work for a {story_type}"
     make_ideas=f"""
     output {word_count} random words of comma delimited list of words that are not adjectives but nouns of person, place or things.
