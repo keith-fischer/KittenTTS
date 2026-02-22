@@ -58,7 +58,8 @@ SPEECH_PORT = 5001
 
 VALID_VOICES = ["Leo", "Bella", "Jasper", "Kiki", "Luna", "Rosie", "Bruno", "Hugo"]
 DEFAULT_VOICE = "Bruno"
-
+PLOT_COUNT="10"
+word_count = "20"
 SYSTEM_PROMPT = """You write drama scripts for text-to-speech. Each line must have:
 - voice: one of Leo, Bella, Jasper, Kiki, Luna, Rosie, Bruno, Hugo
 - speed: float 1.0 to 1.7 (1.2 = normal, higher = faster)
@@ -264,8 +265,7 @@ def main() -> None:
     if requests is None:
         print("Error: Install requests: pip install requests")
         sys.exit(1)
-    plot_count="20"
-    word_count="20"
+
     # the_story="""
     # The kitty disease comes to the group of friends town of cornball.
     # The friends have town people and family all turn into kittys.
@@ -274,7 +274,8 @@ def main() -> None:
     # They attack each other and eat the flesh of their friends.
     # One person manages to run and hide in the deep woods and eventually make a living deep in the forest with bigfoot.
     # """
-    words_theme="Make words of this theme of 5 words of 'adventure, danger' and remaining words about expedition, off-road, animals, survival, fear"
+    story_type="podcast group discussion"
+    words_theme=f"Make words of this theme of software, AI, engineering, employment, human, work for a {story_type}"
     make_ideas=f"""
     output {word_count} random words of comma delimited list of words that are not adjectives but nouns of person, place or things.
     {words_theme}
@@ -293,8 +294,8 @@ def main() -> None:
     print(ideas)
     make_story=f"""
     Use these story narrative ideas: {ideas}
-    Make a list of sentences to suggest a single short story plot narrative from begining to end we could expand on to build up and use these ideas into a more indepth plot.
-    Make like 5-10 sentences as appropriate for what you think is good suggestion for the single short story.
+    Make a list of sentences to suggest a single short {story_type} plot narrative from begining to end we could expand on to build up and use these ideas into a more indepth plot.
+    Make like 5-10 sentences as appropriate for what you think is good suggestion for the single short {story_type}.
     No other output comments except the plot paragraph/sentences with empty line between the plot sections.
     """
     try:
@@ -313,7 +314,7 @@ def main() -> None:
         sys.exit(1)
     print(the_story)
     prompt_narrative=f"""
-    Create a story plot of about {plot_count} plot sections of the whole story. 
+    Create a story plot of about {PLOT_COUNT} plot sections of the whole story. 
     {the_story}
     Each plot section will have new line.
     Keep each section as a paragraph.
@@ -361,14 +362,14 @@ def main() -> None:
             voices_prompt = f"""PLOT:{n} of {len(plot_list)}:
     Write a 10 to 30-line conversation of only these characters, Leo is male, Luna is female, Bruno is male, Kiki is female, Jasper is male, Rosie is female and Bella is female.
     
-    We want plenty of narration in the story to help keep the story moving along in time and action.
-    Bruno will be the narrator in the story.
+    We want plenty of narration in the story to help keep the {story_type} moving along in time and action.
+    {DEFAULT_VOICE} will be the narrator in the story.
     
     You don't have to use all the character names. 
     But you must only use these character names listed above.
     Can keep one or two or all the charaters going in the conversation.
     
-    Here is The Plot to build the next discussion of the story:
+    Here is The Plot to build the next discussion of the {story_type}:
     {plot}
     
     {story}
